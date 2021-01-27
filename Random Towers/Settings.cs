@@ -21,7 +21,7 @@ namespace Random_Towers
         #region Properties
         public int MaxRandomUpgrade { get; set; } = 5;
         public List<string> AllowedTowers { get; set; } = new List<string>();
-        public bool AllowRandomUpgrades { get; set; } = false;
+        public bool AllowRandomUpgrades { get; set; } = true;
         #endregion
 
 
